@@ -4,8 +4,8 @@ on: push
 
 jobs:
   super-lint:
-    name: Lint Code base
-    runs-on: checkout-latest
+    name: Lint code base
+    runs-on: ubuntu-latest
     steps:
        - name: Checkpot code
          uses: actions/checkout@v2
